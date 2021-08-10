@@ -6,6 +6,7 @@ public class day1 {
         System.out.println("Let's work on this project");
         System.out.println("Let's write a good code");
         System.out.println("Writing the code is fun=)");
+        // 1 commit
 
 
     }
