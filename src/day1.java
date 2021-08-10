@@ -8,6 +8,7 @@ public class day1 {
         System.out.println("Writing the code is fun=)");
         // 1 commit
         //2 commit
+        //3 commit
 
 
     }
