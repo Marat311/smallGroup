@@ -3,5 +3,6 @@ public class day1 {
         System.out.println("Hello Marina");
         System.out.println("Cybertek");
         System.out.println("Let's work on this project");
+        // day 1 project
     }
 }
