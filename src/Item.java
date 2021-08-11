@@ -8,4 +8,9 @@ public class Item {
         this.name=name;
     }
 
+    public Item(String name, int price){
+        this(name);
+        this.price= price;
+    }
+
 }
