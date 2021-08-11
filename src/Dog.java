@@ -22,6 +22,10 @@ public class Dog {
     static {
                 numberOfLegs = 4;
                 numberOfEyes = 2;
+    }
 
+    public Dog(String name,String breed, String color,String size){
+        this(name, breed, color);
+        this.size = size;
     }
 }
