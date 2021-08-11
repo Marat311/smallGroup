@@ -12,5 +12,8 @@ public class Item {
         this(name);
         this.price= price;
     }
+    static {
+        nameOfShop = "Stop & Shop";
+    }
 
 }
