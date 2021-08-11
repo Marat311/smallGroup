@@ -1,0 +1,31 @@
+public class Dog {
+
+    public String name,breed, color, size;
+    public int age;
+
+    public static int numberOfLegs, numberOfEyes;
+
+    public Dog(String name) {
+        this.name = name;
+    }
+
+    public Dog(String name, String breed){
+        this(name);
+        this.breed= breed;
+    }
+
+    public Dog(String name,String breed, String color){
+        this(name, breed);
+        this.color = color;
+    }
+
+    static {
+                numberOfLegs = 4;
+                numberOfEyes = 2;
+    }
+
+    public Dog(String name,String breed, String color,String size){
+        this(name, breed, color);
+        this.size = size;
+    }
+}
