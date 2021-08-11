@@ -13,4 +13,9 @@ public class Dog {
         this(name);
         this.breed= breed;
     }
+
+    public Dog(String name,String breed, String color){
+        this(name, breed);
+        this.color = color;
+    }
 }
