@@ -20,4 +20,8 @@ public class Carpet {
         this.price=price;
     }
 
+    static{
+        isPersian = true;
+    }
+
 }
