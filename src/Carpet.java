@@ -9,4 +9,12 @@ public class Carpet {
     public Carpet(String color){
         this.color=color;
     }
+
+    public Carpet(String color, int size){
+        this(color);
+        this.size=size;
+    }
+
+    public
+
 }
