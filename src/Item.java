@@ -3,4 +3,9 @@ public class Item {
     public int price;
 
     public static String nameOfShop;
+
+    public Item(String name){
+        this.name=name;
+    }
+
 }
