@@ -5,7 +5,12 @@ public class Dog {
 
     public static int numberOfLegs, numberOfEyes;
 
+    public Dog(String name) {
+        this.name = name;
+    }
 
-
-
+    public Dog(String name, String breed){
+        this(name);
+        this.breed= breed;
+    }
 }
