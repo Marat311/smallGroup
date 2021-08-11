@@ -18,4 +18,10 @@ public class Dog {
         this(name, breed);
         this.color = color;
     }
+
+    static {
+                numberOfLegs = 4;
+                numberOfEyes = 2;
+
+    }
 }
