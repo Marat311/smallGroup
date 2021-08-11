@@ -15,6 +15,9 @@ public class Carpet {
         this.size=size;
     }
 
-    public
+    public Carpet(String color, int size, double price){
+        this(color, size);
+        this.price=price;
+    }
 
 }
